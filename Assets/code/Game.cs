@@ -12,7 +12,7 @@ public class Game : MonoBehaviour
     public bool isPaused { get; private set; }
     public int blocksLeft { get; private set; }
     private int nextLife;
-    private const int nextLevelAmount = 10;
+    private const int nextLevelAmount = 6;
     private const int oneUpAmount = 1000;
     private GameObject playArea;
     private GameObject playerObject;
